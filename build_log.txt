@@ -1,0 +1,145 @@
+
+> build
+> export NODE_OPTIONS='--require ./scripts/polyfill.cjs' && remix vite:build
+
+[33mThe CJS build of Vite's Node API is deprecated. See https://vite.dev/guide/troubleshooting.html#vite-cjs-node-api-deprecated for more details.[39m
+[warn] Fetcher persistence behavior is changing in React Router v7
+┃ You can use the `v3_fetcherPersist` future flag to opt-in early.
+┃ -> https://remix.run/docs/en/2.13.1/start/future-flags#v3_fetcherPersist
+┗
+[warn] Route discovery/manifest behavior is changing in React Router v7
+┃ You can use the `v3_lazyRouteDiscovery` future flag to opt-in early.
+┃ -> https://remix.run/docs/en/2.13.1/start/future-flags#v3_lazyRouteDiscovery
+┗
+[warn] Relative routing behavior for splat routes is changing in React Router v7
+┃ You can use the `v3_relativeSplatPath` future flag to opt-in early.
+┃ -> https://remix.run/docs/en/2.13.1/start/future-flags#v3_relativeSplatPath
+┗
+[warn] Data fetching is changing to a single fetch in React Router v7
+┃ You can use the `v3_singleFetch` future flag to opt-in early.
+┃ -> https://remix.run/docs/en/2.13.1/start/future-flags#v3_singleFetch
+┗
+[warn] The format of errors thrown on aborted requests is changing in React Router v7
+┃ You can use the `v3_throwAbortReason` future flag to opt-in early.
+┃ -> https://remix.run/docs/en/2.13.1/start/future-flags#v3_throwAbortReason
+┗
+vite v5.4.21 building for production...
+transforming...
+✓ 1536 modules transformed.
+x Build failed in 9.50s
+[vite]: Rollup failed to resolve import "~/assets/profile.jpg" from "/home/nihal/Documents/Nishma/portfolio/portfolio/app/routes/home/profile.jsx".
+This is most likely unintended because it can break your application at runtime.
+If you do want to externalize this module explicitly add it to
+`build.rollupOptions.external`
+    at viteWarn (file:///home/nihal/Documents/Nishma/portfolio/portfolio/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:65855:17)
+    at onwarn (/home/nihal/Documents/Nishma/portfolio/portfolio/node_modules/@remix-run/dev/dist/vite/plugin.js:630:13)
+    at onRollupWarning (file:///home/nihal/Documents/Nishma/portfolio/portfolio/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:65885:5)
+    at onwarn (file:///home/nihal/Documents/Nishma/portfolio/portfolio/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:65550:7)
+    at file:///home/nihal/Documents/Nishma/portfolio/portfolio/node_modules/vite/node_modules/rollup/dist/es/shared/node-entry.js:20975:13
+    at Object.logger [as onLog] (file:///home/nihal/Documents/Nishma/portfolio/portfolio/node_modules/vite/node_modules/rollup/dist/es/shared/node-entry.js:22848:9)
+    at ModuleLoader.handleInvalidResolvedId (file:///home/nihal/Documents/Nishma/portfolio/portfolio/node_modules/vite/node_modules/rollup/dist/es/shared/node-entry.js:21592:26)
+    at file:///home/nihal/Documents/Nishma/portfolio/portfolio/node_modules/vite/node_modules/rollup/dist/es/shared/node-entry.js:21550:26 {
+  watchFiles: [
+    '/home/nihal/Documents/Nishma/portfolio/portfolio/node_modules/@remix-run/dev/dist/config/defaults/entry.client.tsx',
+    '/home/nihal/Documents/Nishma/portfolio/portfolio/app/root.jsx',
+    '/home/nihal/Documents/Nishma/portfolio/portfolio/app/routes/articles.modern-styling-in-react.mdx',
+    '/home/nihal/Documents/Nishma/portfolio/portfolio/app/routes/projects.volkihar-knight/route.js',
+    '/home/nihal/Documents/Nishma/portfolio/portfolio/app/routes/articles.hello-world.mdx',
+    '/home/nihal/Documents/Nishma/portfolio/portfolio/app/routes/projects.smart-sparrow/route.js',
+    '/home/nihal/Documents/Nishma/portfolio/portfolio/app/routes/articles_._index/route.jsx',
+    '/home/nihal/Documents/Nishma/portfolio/portfolio/app/routes/api.set-theme.js',
+    '/home/nihal/Documents/Nishma/portfolio/portfolio/app/routes/projects.slice/route.js',
+    '/home/nihal/Documents/Nishma/portfolio/portfolio/app/routes/articles/route.jsx',
+    '/home/nihal/Documents/Nishma/portfolio/portfolio/app/routes/contact/route.js',
+    '/home/nihal/Documents/Nishma/portfolio/portfolio/app/routes/home/route.js',
+    '/home/nihal/Documents/Nishma/portfolio/portfolio/app/routes/uses/route.js',
+    '/home/nihal/Documents/Nishma/portfolio/portfolio/app/routes/$.jsx',
+    '/home/nihal/Documents/Nishma/portfolio/portfolio/package.json',
+    '/home/nihal/Documents/Nishma/portfolio/portfolio/node_modules/react/jsx-runtime.js',
+    '/home/nihal/Documents/Nishma/portfolio/portfolio/node_modules/@remix-run/react/dist/esm/index.js',
+    '/home/nihal/Documents/Nishma/portfolio/portfolio/node_modules/react/index.js',
+    '/home/nihal/Documents/Nishma/portfolio/portfolio/node_modules/react-dom/client.js',
+    '/home/nihal/Documents/Nishma/portfolio/portfolio/node_modules/react/cjs/react-jsx-runtime.production.min.js',
+    '/home/nihal/Documents/Nishma/portfolio/portfolio/node_modules/@remix-run/react/dist/esm/browser.js',
+    '/home/nihal/Documents/Nishma/portfolio/portfolio/node_modules/@remix-run/react/dist/esm/components.js',
+    '/home/nihal/Documents/Nishma/portfolio/portfolio/node_modules/@remix-run/react/dist/esm/scroll-restoration.js',
+    '/home/nihal/Documents/Nishma/portfolio/portfolio/node_modules/@remix-run/react/dist/esm/server.js',
+    '/home/nihal/Documents/Nishma/portfolio/portfolio/node_modules/@remix-run/server-runtime/dist/esm/index.js',
+    '/home/nihal/Documents/Nishma/portfolio/portfolio/node_modules/react-router-dom/dist/index.js',
+    '/home/nihal/Documents/Nishma/portfolio/portfolio/node_modules/react/cjs/react.production.min.js',
+    '/home/nihal/Documents/Nishma/portfolio/portfolio/node_modules/react-dom/index.js',
+    '/home/nihal/Documents/Nishma/portfolio/portfolio/app/routes/projects.volkihar-knight/volkihar-knight.jsx',
+    '/home/nihal/Documents/Nishma/portfolio/portfolio/app/routes/projects.smart-sparrow/smart-sparrow.jsx',
+    '/home/nihal/Documents/Nishma/portfolio/portfolio/app/routes/projects.slice/slice.jsx',
+    '/home/nihal/Documents/Nishma/portfolio/portfolio/app/routes/contact/contact.jsx',
+    '/home/nihal/Documents/Nishma/portfolio/portfolio/app/routes/home/home.jsx',
+    '/home/nihal/Documents/Nishma/portfolio/portfolio/app/routes/uses/uses.jsx',
+    '/home/nihal/Documents/Nishma/portfolio/portfolio/node_modules/@remix-run/react/dist/esm/_virtual/_rollupPluginBabelHelpers.js',
+    '/home/nihal/Documents/Nishma/portfolio/portfolio/node_modules/@remix-run/react/dist/esm/errorBoundaries.js',
+    '/home/nihal/Documents/Nishma/portfolio/portfolio/node_modules/@remix-run/react/dist/esm/routes.js',
+    '/home/nihal/Documents/Nishma/portfolio/portfolio/node_modules/@remix-run/react/dist/esm/single-fetch.js',
+    '/home/nihal/Documents/Nishma/portfolio/portfolio/node_modules/react-router-dom/server.mjs',
+    '/home/nihal/Documents/Nishma/portfolio/portfolio/node_modules/@remix-run/server-runtime/dist/esm/cookies.js',
+    '/home/nihal/Documents/Nishma/portfolio/portfolio/node_modules/@remix-run/server-runtime/dist/esm/formData.js',
+    '/home/nihal/Documents/Nishma/portfolio/portfolio/node_modules/@remix-run/server-runtime/dist/esm/responses.js',
+    '/home/nihal/Documents/Nishma/portfolio/portfolio/node_modules/@remix-run/server-runtime/dist/esm/single-fetch.js',
+    '/home/nihal/Documents/Nishma/portfolio/portfolio/node_modules/@remix-run/server-runtime/dist/esm/server.js',
+    '/home/nihal/Documents/Nishma/portfolio/portfolio/node_modules/@remix-run/server-runtime/dist/esm/sessions.js',
+    '/home/nihal/Documents/Nishma/portfolio/portfolio/node_modules/@remix-run/server-runtime/dist/esm/sessions/cookieStorage.js',
+    '/home/nihal/Documents/Nishma/portfolio/portfolio/node_modules/@remix-run/server-runtime/dist/esm/sessions/memoryStorage.js',
+    '/home/nihal/Documents/Nishma/portfolio/portfolio/node_modules/@remix-run/server-runtime/dist/esm/upload/memoryUploadHandler.js',
+    '/home/nihal/Documents/Nishma/portfolio/portfolio/node_modules/@remix-run/server-runtime/dist/esm/upload/errors.js',
+    '/home/nihal/Documents/Nishma/portfolio/portfolio/node_modules/@remix-run/server-runtime/dist/esm/dev.js',
+    '/home/nihal/Documents/Nishma/portfolio/portfolio/node_modules/react-dom/cjs/react-dom.production.min.js',
+    '/home/nihal/Documents/Nishma/portfolio/portfolio/node_modules/@remix-run/react/dist/esm/invariant.js',
+    '/home/nihal/Documents/Nishma/portfolio/portfolio/node_modules/@remix-run/react/dist/esm/errors.js',
+    '/home/nihal/Documents/Nishma/portfolio/portfolio/node_modules/@remix-run/react/dist/esm/fog-of-war.js',
+    '/home/nihal/Documents/Nishma/portfolio/portfolio/node_modules/react-router/dist/index.js',
+    '/home/nihal/Documents/Nishma/portfolio/portfolio/node_modules/@remix-run/router/dist/router.js',
+    '/home/nihal/Documents/Nishma/portfolio/portfolio/node_modules/@remix-run/react/dist/esm/links.js',
+    '/home/nihal/Documents/Nishma/portfolio/portfolio/node_modules/@remix-run/react/dist/esm/markup.js',
+    '/home/nihal/Documents/Nishma/portfolio/portfolio/app/routes/projects.slice/slice.module.css',
+    '/home/nihal/Documents/Nishma/portfolio/portfolio/app/routes/projects.volkihar-knight/volkihar-logo.jsx',
+    '/home/nihal/Documents/Nishma/portfolio/portfolio/app/routes/projects.volkihar-knight/volkihar-knight.module.css',
+    '/home/nihal/Documents/Nishma/portfolio/portfolio/app/routes/projects.volkihar-knight/armor.jsx',
+    '/home/nihal/Documents/Nishma/portfolio/portfolio/app/routes/home/intro.jsx',
+    '/home/nihal/Documents/Nishma/portfolio/portfolio/app/routes/home/profile.jsx',
+    '/home/nihal/Documents/Nishma/portfolio/portfolio/app/routes/home/project-summary.jsx',
+    '/home/nihal/Documents/Nishma/portfolio/portfolio/app/routes/home/home.module.css',
+    '/home/nihal/Documents/Nishma/portfolio/portfolio/app/routes/contact/contact.module.css',
+    '/home/nihal/Documents/Nishma/portfolio/portfolio/app/routes/uses/uses.module.css',
+    '/home/nihal/Documents/Nishma/portfolio/portfolio/app/routes/projects.smart-sparrow/smart-sparrow.module.css',
+    '/home/nihal/Documents/Nishma/portfolio/portfolio/app/routes/projects.smart-sparrow/earth.jsx',
+    'app/assets/slice-annotation-large.png',
+    'app/assets/slice-annotation-placeholder.png',
+    'app/assets/slice-annotation.png',
+    'app/assets/slice-app-large.jpg',
+    'app/assets/slice-app.jpg',
+    'app/assets/slice-background-bar-large.jpg',
+    'app/assets/slice-background-bar.jpg',
+    'app/assets/slice-background.jpg',
+    'app/assets/slice-irl.jpg',
+    'app/assets/slice-sidebar-annotations-large.png',
+    'app/assets/slice-sidebar-annotations-placeholder.png',
+    'app/assets/slice-sidebar-annotations.png',
+    'app/assets/slice-sidebar-layers-large.png',
+    'app/assets/slice-sidebar-layers.png',
+    'app/assets/slice-slides-large.jpg',
+    'app/assets/slice-slides.jpg',
+    'app/assets/volkihar-background-large.jpg',
+    'app/assets/volkihar-background.jpg',
+    'app/assets/volkihar-banner-large.jpg',
+    'app/assets/volkihar-banner.jpg',
+    'app/assets/volkihar-book-placeholder.png',
+    'app/assets/volkihar-book.png',
+    'app/assets/volkihar-enderal-logo-large.png',
+    'app/assets/volkihar-enderal-logo.png',
+    'app/assets/volkihar-enderal-large.jpg',
+    'app/assets/volkihar-enderal.jpg',
+    'app/assets/volkihar-slide-1-large.jpg',
+    'app/assets/volkihar-slide-1.jpg',
+    'app/assets/volkihar-slide-2.jpg',
+    'app/assets/volkihar-slide-2-large.jpg',
+    ... 1376 more items
+  ]
+}
